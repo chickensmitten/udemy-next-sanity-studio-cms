@@ -53,7 +53,10 @@ export default createSchema({
               name: 'alt',
               title: 'Description'
             }
-          ]
+          ],
+          options: {
+            hotspot: true
+          }          
         },
         {
           name: 'content',
