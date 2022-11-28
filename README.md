@@ -6,4 +6,4 @@
 - `npm install --save @sanity/code-input`
 - `sanity install @sanity/production-preview`
 - when deploying, ensure that sanity cli version in this studio matches with the blog `"@sanity/cli": "^2.35.2"`
-- when running `npm build`, ensure the script is also like this `"build": "sanity build public -y"`
+- when running `npm build`, ensure the script is also like this `"build": "sanity build dist -y"`
